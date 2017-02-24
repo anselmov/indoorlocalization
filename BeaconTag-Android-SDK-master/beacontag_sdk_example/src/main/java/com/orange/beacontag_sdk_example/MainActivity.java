@@ -51,7 +51,7 @@ public class MainActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             BeaconSettings beaconSettings = new BeaconSettings("3d4f13b4-d1fd-4049-80e5-d3edcc840b6f",
-                    49837, 28051, AreaSettings.LEAVING);
+                    13827, 13930, AreaSettings.APPROACHING_AND_LEAVING);
             BeaconMonitor.getInstance().registerForBeaconDetection(beaconSettings, new BeaconUpdatedCallback() {
                 @Override
                 public void onBeaconUpdated(String uuid, int major, int minor) {

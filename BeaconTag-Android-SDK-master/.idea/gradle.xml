@@ -13,13 +13,7 @@
             <option value="$PROJECT_DIR$/beacontag_sdk_example" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/beacontag_sdk" />
-            <option value="$PROJECT_DIR$/beacontag_sdk_example" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
